@@ -94,4 +94,10 @@ body{
     display: none;
 }
 
+@media screen and (max-width: 800px) {
+  .event-content {
+    flex-direction: column;
+  }
+}
+
 
