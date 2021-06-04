@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans JP', sans-serif;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-image: url('image/background.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.container{
+	background: rgba(54, 57, 63, 0.95);
+    background-repeat: repeat;
+	min-height: 100vh;
+	padding-top: 100px;
+}
+
+.start-event{
+    display: flex;
+    flex-direction: column;
+    min-height:30vh;
+    align-items: center;
+    color: #fff;
+}
+
+.start-event-icon{
+    width: 200px
+}
+
+.start-event p{
+    font-size: 40px;
+}
+
+.start-event:hover{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.event-content{
+    display: flex;
+    padding: 15px;
+    margin: 15px;
+    min-height: 40vh;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.stream-sect{
+    height: 300px;
+    width: 40%;
+    margin: 20px;
+    position: relative;
+}
+
+.info{
+    width: 60%;
+    color: #fff;
+}
+
+.attendance-sect{
+    background: #fff;
+    height: 200px;
+    width: 90%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.gender-count{
+    width: 40%;
+    color: #333;
+    text-align: center;
+
+}
+
+#canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+.hidden{
+    display: none;
+}
+
+

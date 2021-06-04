@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Test</title>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="styles.css">
+        
+      <script src="js/face-api.min.js" defer></script>  
+      <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="section">
+        <div class="start-event" id="start-event">
+            <img src="image/start-event.svg" alt="start event button" class="start-event-icon">
+            <p>Start your event</p>
+        </div>
+        
+        <div class = "event-content hidden" id="event-content">
+            <div class="stream-sect">
+                <video autoplay muted width="300" height="300" id="vid"></video>
+                
+                <canvas id="canvas"></canvas>
+            </div>
+            
+            <div class="info">
+                <h3>Event attendace</h3>
+                <div class="attendance-sect">
+                    <div class="gender-count">
+                        <h3>Male</h3>
+                        <p id="maleTotal"></p>
+                    </div>
+                    <div class="gender-count">
+                        <h3>Female</h3>
+                        <p id="femaleTotal"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
